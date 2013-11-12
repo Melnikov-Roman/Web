@@ -35,13 +35,13 @@ namespace ProxyServer
 					page_content = stream.ReadToEnd();
 				}
 
-				Regex regex = new Regex(@"(?<=href="")(\S)*(?="")");
-				MatchCollection matches = regex.Matches(page_content);
-				foreach (Match match in matches)
-				{
-					if (match.Value.StartsWith("/"))
-						page_content = regex.Replace(match.Value, response.ResponseUri + match.Value);
-				}
+				////Regex regex = new Regex(@"(?<=href="")(\S)*(?="")");
+				////MatchCollection matches = regex.Matches(page_content);
+				////foreach (Match match in matches)
+				////{
+				////	if (match.Value.StartsWith("/"))
+				////		page_content = regex.Replace(match.Value, response.ResponseUri + match.Value);
+				////}
 
 				  
 				

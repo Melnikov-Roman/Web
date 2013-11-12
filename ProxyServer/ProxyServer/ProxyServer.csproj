@@ -63,6 +63,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GetHandler.cs" />
     <Compile Include="PageAvailableModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="URLHandler.ashx.cs">
