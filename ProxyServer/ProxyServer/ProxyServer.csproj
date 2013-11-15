@@ -63,15 +63,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GetHandler.cs" />
-    <Compile Include="PageAvailableModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="URLHandler.ashx.cs">
-      <DependentUpon>URLHandler.ashx</DependentUpon>
-    </Compile>
+    <Compile Include="ProxyUrlHandler.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="URLHandler.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
