@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyServer", "ProxyServer\ProxyServer.csproj", "{5675E1DF-EDD3-4377-85B7-A20445B1493B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyServer", "ProxyServer\ProxyServer.csproj", "{BFDFAA17-F4E9-422D-AEDF-91A0757F8B9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5675E1DF-EDD3-4377-85B7-A20445B1493B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5675E1DF-EDD3-4377-85B7-A20445B1493B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5675E1DF-EDD3-4377-85B7-A20445B1493B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5675E1DF-EDD3-4377-85B7-A20445B1493B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFDFAA17-F4E9-422D-AEDF-91A0757F8B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFDFAA17-F4E9-422D-AEDF-91A0757F8B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFDFAA17-F4E9-422D-AEDF-91A0757F8B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFDFAA17-F4E9-422D-AEDF-91A0757F8B9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
