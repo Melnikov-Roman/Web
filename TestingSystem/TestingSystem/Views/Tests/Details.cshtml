@@ -1,0 +1,38 @@
+﻿@model TestingSystem.Models.Test
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Система тестирования</h2>
+
+<fieldset>
+	<legend>Test</legend>
+
+	<div>
+		@Html.DisplayFor(model => model.ID)
+		@Html.DisplayFor(model => model.Name)
+	</div>
+ 
+</fieldset>
+
+<h3>Вопрос 1</h3>
+
+<h4>Есть ли жизнь на Марсе?</h4>
+<ul>
+	<li style="list-style-type:none;">
+		@Html.RadioButtonFor(model => model.ID,"First")
+		@Html.LabelFor(model => model.Name, "Да")
+	</li>
+	<li style="list-style-type:none;">
+		@Html.RadioButtonFor(model => model.ID, "Second")
+		@Html.LabelFor(model => model.Name, "Нет")
+	</li>
+		<li style="list-style-type:none;">
+		@Html.RadioButtonFor(model => model.ID, "Third")
+		@Html.LabelFor(model => model.Name, "Не знаю")
+	</li>
+</ul>
+<p>
+	@Html.ActionLink("Back to List", "Index")
+</p>

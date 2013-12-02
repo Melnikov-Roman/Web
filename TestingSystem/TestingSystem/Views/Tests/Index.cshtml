@@ -1,0 +1,16 @@
+﻿@model IDictionary<int, string>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Список тестов для @ViewBag.ClientID </h2>
+
+@foreach (var item in Model) 
+{
+<ul>
+	<li>
+		@Html.ActionLink(@item.Value, "Details", new { id = item.Key }) - new
+	</li>
+</ul>
+}
